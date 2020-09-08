@@ -84,13 +84,17 @@ footer {
   text-align: center;
 }
 
-ul.clfooter{
+ul.clfooter {
   text-align: center;
   border-top: solid 1px gray;
   padding: 10px 0px 10px 0px;
 }
 
-ul.clfooter>li{
+ul.clfooter>li {
   display: inline;
   padding-right: 5px;
+}
+
+h4.ban::before {
+  content: "☮️";
 }
